@@ -20,7 +20,7 @@ async function starWars(endpoint) {
 
 async function starWarsCount(endpoint) {
   starWars("films");
-  console.log(await starWars("films"));
+  console.log(await starWars("films")); //film dataları aldık
   console.log(await starWars("planets"));
   console.log(await starWars("starships"));
 
